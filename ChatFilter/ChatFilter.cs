@@ -114,8 +114,8 @@ namespace TextValidator
 
 			for(Int32 i=0, len=text.Length; i<len; ++i)
 			{
-				current = current.Find(text[i]);
-				if( null == current )
+				ChatNode find = current.Find(text[i]);
+				if( null == find )
 				{
 					if( null != ChatFilter.NoiseValidation )
 					{
@@ -125,7 +125,7 @@ namespace TextValidator
 					return matchInfo;
 				}
 
-				if( true == current.isLeaf )
+				if( true == (current = find).isLeaf )
 				{
 					matchInfo.matchCount	= i+1;
 					matchInfo.chatType		= current.type;
