@@ -1,1 +1,1 @@
-# ChatFilter
+# TextFilter
