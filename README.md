@@ -2,6 +2,8 @@
 
 ### Basic Usage Example ###
 ```csharp
+TextFilter filter = new TextFilter('*', char.IsNumber);
+
 filter.Add("noob");
 
 Console.WriteLine(filter.Filter("Noobserve").filtrate); // ****serve
