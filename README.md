@@ -1,16 +1,6 @@
 # TextFilter
 
-### Using namespace ###
-```csharp
-using TextFiltering;
-```
-
-### Initialize an instance ###
-```csharp
-TextFilter filter = new TextFilter('*', char.IsNumber);
-```
-
-### Add an word to filter/an word to ignore exceptionally ###
+### Basic Usage Example ###
 ```csharp
 filter.Add("noob");
 
