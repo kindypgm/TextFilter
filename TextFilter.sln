@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFilter", "TextFilter\TextFilter.csproj", "{7A98C683-C10D-402F-8138-D2C255FDF963}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{067AFD47-8325-4E73-B7AD-6D4D62E62947}"
+	ProjectSection(SolutionItems) = preProject
+		Demo\Chat.exe = Demo\Chat.exe
+		Demo\exceptional_filter.txt = Demo\exceptional_filter.txt
+		Demo\main_filter.txt = Demo\main_filter.txt
+		Demo\TextFilter.dll = Demo\TextFilter.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
