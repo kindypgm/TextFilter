@@ -1,1 +1,6 @@
 # TextFilter
+
+### Usage Example ###
+```csharp
+
+```
