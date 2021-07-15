@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <OutputType>Library</OutputType>
+    <Authors>kindy</Authors>
+    <Company>kindy</Company>
+    <Product />
+    <Version>1.0.1</Version>
+    <RootNamespace>TextFiltering</RootNamespace>
   </PropertyGroup>
 
 </Project>
