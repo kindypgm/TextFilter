@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFilter", "ChatFilter\TextFilter.csproj", "{55723EB5-DE28-4D64-A472-A4D1FBABD949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFilter", "TextFilter\TextFilter.csproj", "{7A98C683-C10D-402F-8138-D2C255FDF963}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{55723EB5-DE28-4D64-A472-A4D1FBABD949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55723EB5-DE28-4D64-A472-A4D1FBABD949}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55723EB5-DE28-4D64-A472-A4D1FBABD949}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55723EB5-DE28-4D64-A472-A4D1FBABD949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A98C683-C10D-402F-8138-D2C255FDF963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A98C683-C10D-402F-8138-D2C255FDF963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A98C683-C10D-402F-8138-D2C255FDF963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A98C683-C10D-402F-8138-D2C255FDF963}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
