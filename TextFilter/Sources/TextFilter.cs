@@ -52,12 +52,12 @@ namespace TextFiltering
 		public TextInfo Filter(String text)
 		{
 			String		original = text;
-			String		filtrate = ConvertCase(text);
+			String		filtrate = text;
 			StringList	residues = new StringList();
 
 			for(Int32 start=0, len=text.Length; start<len;)
 			{
-				MatchInfo matchInfo = Match(filtrate.Substring(start, len-start), m_Root);
+				MatchInfo matchInfo = Match(ConvertCase(filtrate.Substring(start, len-start)), m_Root);
 				if( 0 < matchInfo.matchCount )
 				{
 					if( TextNode.NodeType.kRestriction == matchInfo.nodeType )
